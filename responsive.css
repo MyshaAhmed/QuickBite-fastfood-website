@@ -1,0 +1,295 @@
+@media screen and (max-width: 576px) {
+    
+    /* *{
+    border: 2px solid black;
+    } */
+
+    .body-container {
+        padding-left: 50px;
+        padding-right: 50px;
+        /* border: 2px solid black; */
+    }
+    
+    /* nav==============================================> */
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .nav-home {
+        gap: 50px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .nav-search {
+        margin-top: 20px;
+    }
+
+
+    /* banner=========================================> */
+    .tag h3 {
+        margin-top: 0px;
+    }
+
+    .tag-icon {
+        padding: 0px 30px;
+    }
+
+    .banner-desc-img-container{
+        flex-direction: column;
+    }
+
+    .banner-left-part h1 {
+        font-size: 36px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .banner-left-part h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .banner-order-process {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .banner-order-process button {
+        padding: 20px 13px;
+        margin-top: 30px;
+        width: 57%;
+    }
+
+    .banner-right-part {
+        
+        grid-template-columns: auto;
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    .abstract-badge img {
+        width: 90%;
+    }
+    .abstract-badge {
+        bottom: 58%;
+        rotate: 66deg;
+        
+    }
+
+
+    /* banner-footer============================================================================> */
+    .banner-footer {
+        flex-direction: column;
+        width: 85%;
+        padding: 20px;
+    }
+
+
+    /* popular-products========================================================================> */
+    #popular-items-title {
+        padding-left: 0px;
+    }
+
+    .Popular-Items-cards {
+        grid-template-columns: auto;
+    }
+
+    #popular-food-image-id {
+        width: 276px;
+        height: 240px;
+        border-radius: 18px;
+    }
+    .popular-product-btn button {
+        margin-top: 30px;
+        margin-left: 15%;
+        padding: 16px 10px;
+        width: 76%;
+    }
+
+
+    /* services========================================================================> */
+    .service-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-container h1 {
+        margin-bottom: 30px;
+    }
+
+    .service-cards1 img {
+        margin-left: 30px;
+    }
+
+    .service-cards1 h3 {
+        font-size: 12px;
+    }
+
+
+    /* testimonial========================================================================> */
+    .testmonial-both-part {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    #test-left-img1 {
+    width: 85%;
+    }
+
+    .test-right-part img {
+    width: 250px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 3px;
+    }
+
+
+    /* subscription=================================================================> */
+
+    .subscription-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .subscription-container img {
+    padding: 20px 0px;
+    height: 200px;
+    }
+
+    .right-submit-form h1 {
+    padding-top: 30px;
+        /* text-align: left; */
+        padding-bottom: 30px;
+        /* padding-left: 20px; */
+        /* color: white; */
+        font-size: 18px;
+        /* font-weight: 700; */
+    }
+
+        ::placeholder {
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+
+    /* footer=====================================================================> */
+        .footer-container {
+            flex-direction: column;
+        }
+
+    .footer-item h3 {
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    *{
+        
+        border: 2px solid black;
+    }
+
+   .body-container {
+    width: 768px;
+       padding-left: 50px;
+       padding-right: 50px;
+       border: 2px solid black;
+   }
+
+
+   /* nav===================================> */
+   .nav-search {
+    gap: 10px;
+   }
+
+   /* banner=========================>*/
+
+   .banner-right-part {
+       display: grid;
+       grid-template-columns: auto;
+   }
+   .banner-right-part img {
+       
+       height: 253px;
+   }
+   .banner-desc-img-container {
+        gap: 0px;
+   }
+
+   .banner-left-part h1 {
+    margin-bottom: 100px;
+   }
+
+   .banner-left-part h3 {
+       margin-bottom: 100px;
+   }
+
+   /* banner-footer=====================================> */
+   .banner-footer {
+       width: 87%;
+       gap: 0px;
+   }
+   .Popular-Items-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+
+   #popular-food-image-id {
+        width: 336px;
+        height: 230px;
+        padding-left: 11px;
+    }
+
+        .popular-product-btn button {
+            margin-top: 30px;
+            margin-left: 36%;
+            padding: 20px 9px;
+            width: 27%;
+        }
+
+        .service-cards {
+             gap: 20px;
+        }
+
+                .service-cards1 img {
+                    margin-left: 20px;
+                }
+
+
+
+                                .service-cards1 h3 {
+                                    font-size: 10px;
+                                }
+
+
+    /* testimonial==============================================================> */
+        .test-right-part img {
+            width: 380px;
+            height: 300px;
+            margin-top: 31px;
+            margin-left: 0px;
+        }
+
+
+        /* subscription============================================================> */
+                .subscription-container img {
+                    padding: 61px 0px;
+                }
+.footer-item-1 h3 {
+    font-size: 11px;
+   
+}
+.social-logo {
+    
+    gap: 10px;
+}
+
+
+
+
+
+
+}
